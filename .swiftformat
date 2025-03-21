@@ -1,0 +1,65 @@
+--swiftversion 5.5
+
+# File Options
+
+--exclude Pods, Generated, .build, LocalizableStrings.swift
+
+# Rules Toggle
+
+--disable sortImports, sortSwitchCases, redundantSelf, organizeDeclarations
+
+# Format Options
+
+--minversion 0.48.9
+--allman false
+--assetliterals visual-width
+--binarygrouping none
+--classthreshold 0
+--closingparen balanced
+--commas inline
+--conflictmarkers reject
+--decimalgrouping 3,6
+--elseposition same-line
+--emptybraces no-space
+--enumthreshold 0
+--exponentcase lowercase
+--exponentgrouping disabled
+--extensionacl on-declarations
+--extensionlength 0
+--fractiongrouping disabled
+--fragment false
+--funcattributes prev-line
+--guardelse auto
+--header ignore
+--hexgrouping none
+--hexliteralcase lowercase
+--ifdef no-indent
+--importgrouping alpha
+--indent 4
+--indentcase true
+--lifecycle
+--linebreaks lf
+--markextensions always
+--marktypes always
+--maxwidth none
+--modifierorder open, public, private, final, override, convenience, dynamic
+--nevertrailing
+--nospaceoperators ...,..<
+--nowrapoperators
+--octalgrouping none
+--operatorfunc no-space
+--organizetypes actor,class,enum,struct
+--patternlet hoist
+--ranges no-space
+--redundanttype inferred
+--selfrequired
+--semicolons never
+--stripunusedargs closure-only
+--tabwidth 4
+--trailingclosures
+--typeattributes prev-line
+--varattributes preserve
+--wraparguments before-first
+--wrapcollections before-first
+--wrapconditions preserve
+--wrapparameters before-first
